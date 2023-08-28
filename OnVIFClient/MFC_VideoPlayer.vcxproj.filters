@@ -1,0 +1,177 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="头文件\onvif">
+      <UniqueIdentifier>{abc55200-d25a-4e3c-9b26-0451017284ee}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\comm">
+      <UniqueIdentifier>{56ec0654-5398-4c36-ac7f-2ac9f6484300}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\onvif">
+      <UniqueIdentifier>{dbc854ed-90bf-41cb-b2bb-4e82931bbff4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\comm">
+      <UniqueIdentifier>{6a837115-71f8-4c44-aa2d-f353b7798589}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="MFC_VideoPlayer.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="MFC_VideoPlayerDlg.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="framework.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CMyVideoArea.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CMyBlockQueue.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="pch.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="comm\onvif_comm.h">
+      <Filter>头文件\comm</Filter>
+    </ClInclude>
+    <ClInclude Include="comm\onvif_dump.h">
+      <Filter>头文件\comm</Filter>
+    </ClInclude>
+    <ClInclude Include="onvif\duration.h">
+      <Filter>头文件\onvif</Filter>
+    </ClInclude>
+    <ClInclude Include="onvif\mecevp.h">
+      <Filter>头文件\onvif</Filter>
+    </ClInclude>
+    <ClInclude Include="onvif\onvif.h">
+      <Filter>头文件\onvif</Filter>
+    </ClInclude>
+    <ClInclude Include="onvif\smdevp.h">
+      <Filter>头文件\onvif</Filter>
+    </ClInclude>
+    <ClInclude Include="onvif\soapH.h">
+      <Filter>头文件\onvif</Filter>
+    </ClInclude>
+    <ClInclude Include="onvif\soapStub.h">
+      <Filter>头文件\onvif</Filter>
+    </ClInclude>
+    <ClInclude Include="onvif\stdsoap2.h">
+      <Filter>头文件\onvif</Filter>
+    </ClInclude>
+    <ClInclude Include="onvif\threads.h">
+      <Filter>头文件\onvif</Filter>
+    </ClInclude>
+    <ClInclude Include="onvif\wsaapi.h">
+      <Filter>头文件\onvif</Filter>
+    </ClInclude>
+    <ClInclude Include="onvif\wsseapi.h">
+      <Filter>头文件\onvif</Filter>
+    </ClInclude>
+    <ClInclude Include="utils.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="MFC_User_and_Password.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="AddDeciveDlg.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="MFC_VideoPlayer.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="MFC_VideoPlayerDlg.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="pch.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CMyVideoArea.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CMyBlockQueue.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="comm\onvif_comm.c">
+      <Filter>源文件\comm</Filter>
+    </ClCompile>
+    <ClCompile Include="comm\onvif_dump.c">
+      <Filter>源文件\comm</Filter>
+    </ClCompile>
+    <ClCompile Include="onvif\dom.c">
+      <Filter>源文件\onvif</Filter>
+    </ClCompile>
+    <ClCompile Include="onvif\duration.c">
+      <Filter>源文件\onvif</Filter>
+    </ClCompile>
+    <ClCompile Include="onvif\mecevp.c">
+      <Filter>源文件\onvif</Filter>
+    </ClCompile>
+    <ClCompile Include="onvif\smdevp.c">
+      <Filter>源文件\onvif</Filter>
+    </ClCompile>
+    <ClCompile Include="onvif\soapC.c">
+      <Filter>源文件\onvif</Filter>
+    </ClCompile>
+    <ClCompile Include="onvif\soapClient.c">
+      <Filter>源文件\onvif</Filter>
+    </ClCompile>
+    <ClCompile Include="onvif\stdsoap2.c">
+      <Filter>源文件\onvif</Filter>
+    </ClCompile>
+    <ClCompile Include="onvif\threads.c">
+      <Filter>源文件\onvif</Filter>
+    </ClCompile>
+    <ClCompile Include="onvif\wsaapi.c">
+      <Filter>源文件\onvif</Filter>
+    </ClCompile>
+    <ClCompile Include="onvif\wsseapi.c">
+      <Filter>源文件\onvif</Filter>
+    </ClCompile>
+    <ClCompile Include="utils.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="MFC_User_and_Password.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="AddDeciveDlg.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="MFCVideoPlayer.rc">
+      <Filter>资源文件</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\MFCVideoPlayer.rc2">
+      <Filter>资源文件</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="res\MFC_VideoPlayer.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+  </ItemGroup>
+</Project>
